@@ -8,7 +8,8 @@ import {
   Battery, 
   Clock, 
   Zap, 
-  Power 
+  Power,
+  AlertTriangle
 } from 'lucide-react';
 
 interface MetricCardProps {
