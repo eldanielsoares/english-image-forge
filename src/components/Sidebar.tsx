@@ -11,7 +11,7 @@ import {
   SidebarMenuItem,
   SidebarHeader,
 } from '@/components/ui/sidebar';
-import { Home, Activity, Calendar, AlertTriangle, Code } from 'lucide-react';
+import { Home, Activity, Calendar, AlertTriangle, Code, Brain } from 'lucide-react';
 
 const menuItems = [
   {
@@ -38,6 +38,11 @@ const menuItems = [
     title: "Error Codes",
     url: "/error-codes",
     icon: Code,
+  },
+  {
+    title: "AI Copilot",
+    url: "/ai-assistant",
+    icon: Brain,
   },
 ];
 

@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Monitoring from "./pages/Monitoring";
 import Appointments from "./pages/Appointments"; 
 import ErrorCodes from "./pages/ErrorCodes";
+import AIAssistant from "./pages/AIAssistant";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/monitoring" element={<Monitoring />} />
           <Route path="/appointments" element={<Appointments />} />
           <Route path="/error-codes" element={<ErrorCodes />} />
+          <Route path="/ai-assistant" element={<AIAssistant />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
